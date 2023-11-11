@@ -1,0 +1,19 @@
+.btn-custom {
+    background-color: #fd7e14 !important;
+    color: #fff !important;
+}
+
+.table-img {
+    width: 100px !important; 
+    height: 100px !important; 
+    object-fit: cover !important;
+}
+
+img {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 400px;
+    object-fit: cover !important;
+
+}
+

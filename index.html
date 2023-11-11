@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kimetsu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/index.css">
+  </head>
+  <body>
+    <header>
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" 
+          data-bs-target="#offBtnTrabajoRelizado" aria-controls="offBtnTrabajoRelizado">
+          Trabajo Realizado Por
+        </button>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offBtnTrabajoRelizado" aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offBtnTrabajoRelizadoLbl"><strong>Cristhian Esneider Grisales Diaz</strong> </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="#">
+              <li><strong>Cedula: </strong>1053777980</li>
+              <li><strong>Codigo: </strong>39099</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Kimetsu no Yaiba</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="src/pages/personajes.html">Personaje</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="src/pages/hojaDeVida.html">Hoja De Vida</a>
+            </li>                  
+          </ul>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/personajes.html">Personajes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container py-4">
+      <div class="my-4 d-flex justify-content-center">
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/pmanD_s7G3U" title="Demon Slayer | OP | &quot;Gurenge&quot; by LiSA HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>    
+      <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+        <div class="row">
+          <div id="personajes-container"></div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
